@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-QUAY_USER="ysachin"
+QUAY_USER="redhunter99"
 BASE="quay.io/${QUAY_USER}/cilium/app"
 WORKDIR="app-images"
 

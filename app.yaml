@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: mysql
-        image: quay.io/ysachin/cilium/app/app-db:v1
+        image: quay.io/redhunter99/cilium/app/app-db:v1
         ports:
         - containerPort: 3306
         env:
@@ -70,7 +70,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: quay.io/ysachin/cilium/app/app-backend:v1
+        image: quay.io/redhunter99/cilium/app/app-backend:v1
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
@@ -126,7 +126,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: quay.io/ysachin/cilium/app/app-frontend:v1
+        image: quay.io/redhunter99/cilium/app/app-frontend:v1
         imagePullPolicy: Always
         ports:
         - containerPort: 80
